@@ -1,0 +1,28 @@
+<div class="page flex items-center h-full justify-center w-full login-page">
+  <mat-card class="px-4 bg-white">
+    <h2 class="mb-4 text-center">Welcome Back</h2>
+    <form (ngSubmit)="onSubmit()">
+      <p>
+        <mat-form-field appearance="fill" class="full-width">
+          <mat-label>Username</mat-label>
+          <input matInput [(ngModel)]="email" name="email" required />
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field appearance="fill" class="full-width">
+          <mat-label>Password</mat-label>
+          <input
+            matInput
+            [(ngModel)]="password"
+            type="password"
+            name="password"
+            required
+          />
+        </mat-form-field>
+      </p>
+      <p class="flex item-center justify-center">
+        <button mat-raised-button color="primary" type="submit">Login</button>
+      </p>
+    </form>
+  </mat-card>
+</div>

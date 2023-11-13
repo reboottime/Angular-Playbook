@@ -1,0 +1,32 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav
+    #drawer
+    class="sidenav"
+    fixedInViewport
+    [attr.role]="'navigation'"
+    [mode]="'side'"
+    [opened]="true"
+  >
+    <mat-nav-list>
+      <a mat-list-item routerLink="books">Books</a>
+      <a mat-list-item routerLink="my-favorites">My Favorites</a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content class="ml-2">
+    <mat-toolbar color="primary" class="flex items-center justify-between">
+      <div class="flex items-center">
+        <img
+          class="w-8 mr-2"
+          src="https://cdn.dribbble.com/users/1376549/screenshots/3271878/dribbble-11_1x.png"
+          alt=""
+        />
+        <span>Liberty Library</span>
+      </div>
+      <app-user />
+    </mat-toolbar>
+    <!-- Add Content Here -->
+    <main class="mx-2 mt-2">
+      <router-outlet></router-outlet>
+    </main>
+  </mat-sidenav-content>
+</mat-sidenav-container>

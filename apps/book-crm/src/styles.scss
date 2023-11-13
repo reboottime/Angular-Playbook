@@ -1,0 +1,115 @@
+/* You can add global styles to this file, and also import other style files */
+/* styles.css */
+.flex {
+  display: flex;
+  justify-content: flex-start;
+}
+.items-center {
+  align-items: center;
+}
+.justify {
+  &-between {
+    justify-content: space-between !important;
+  }
+  &-center {
+    justify-content: center !important;
+  }
+  &-end {
+    justify-content: flex-end !important;
+  }
+}
+
+.text {
+  &-center {
+    text-align: center;
+  }
+  &-left {
+    text-align: left;
+  }
+  &-right {
+    text-align: right;
+  }
+}
+
+.w {
+  &-full {
+    width: 100%;
+  }
+  &-8 {
+    width: 32px;
+  }
+}
+// margin top and margin bottom
+.mt {
+  &-4 {
+    margin-top: 16px;
+  }
+  &-5 {
+    margin-top: 20;
+  }
+  &-8 {
+    margin-top: 32px;
+  }
+}
+
+.mb {
+  &-4 {
+    margin-bottom: 16px;
+  }
+  &-5 {
+    margin-bottom: 20px;
+  }
+  &-8 {
+    margin-bottom: 32px;
+  }
+}
+
+.mr {
+    &-2 {
+        margin-right: 8px;
+    }
+    &-4 {
+        margin-right: 16px;
+    }
+}
+
+.ml {
+    &-1 {
+        margin-left: 4px;
+    }
+    &-2 {
+        margin-left: 8px;
+    }
+}
+
+.my {
+  &-4 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  &-5 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  &-8 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+}
+.px-{
+    &-4 {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+.page {
+  height: 100vh;
+}
+.bg {
+    &-white {
+        background-color: white;
+    }
+}
+body {
+    background-color: #fefefe;
+}

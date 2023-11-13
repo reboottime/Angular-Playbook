@@ -1,0 +1,5 @@
+<button mat-button [matMenuTriggerFor]="menu" class="flex items-center"><mat-icon>person_outline</mat-icon> <span class="ml-1">{{username}}</span></button>
+<mat-menu #menu="matMenu">
+  <a mat-menu-item [routerLink]="'/profile'">Profile</a>
+  <button mat-menu-item (click)="signOut()">Sign Out</button>
+</mat-menu>

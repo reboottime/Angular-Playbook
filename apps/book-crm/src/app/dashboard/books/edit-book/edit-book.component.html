@@ -1,0 +1,31 @@
+<div class="edit-book-dialog">
+  <h2 mat-dialog-title>Edit Book</h2>
+  <mat-dialog-content>
+    <form [formGroup]="editBookForm">
+        <mat-form-field appearance="fill" class="form-field flex">
+          <mat-label>Book Title</mat-label>
+          <input matInput formControlName="title" placeholder="Book title" />
+        </mat-form-field>
+      <mat-form-field appearance="fill" class="form-field flex">
+        <mat-label>Book Description</mat-label>
+        <input
+          matInput
+          formControlName="description"
+          placeholder="Book description"
+        />
+      </mat-form-field>
+      <mat-form-field appearance="fill" class="form-field flex">
+        <mat-label>Book Authors (Separate authors with commas)</mat-label>
+        <input
+          matInput
+          formControlName="authors"
+          placeholder="e.g., Author 1, Author 2"
+        />
+      </mat-form-field>
+    </form>
+  </mat-dialog-content>
+  <mat-dialog-actions class="flex items-center justify-end">
+    <button mat-button (click)="onCancelClick()">Cancel</button>
+    <button mat-button (click)="onSaveClick()" cdkFocusInitial>Save</button>
+  </mat-dialog-actions>
+</div>
