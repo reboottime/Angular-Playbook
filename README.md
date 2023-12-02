@@ -13,5 +13,6 @@ I was hired, so I've organized this repository to chronicle my Angular journey f
 
 - [Angular Essentials: Reactive Form](https://github.com/reboottime/Angular-Playbook/issues/30)
 - [Reactive programming using Rxjs](https://github.com/reboottime/Crash-Angular-For-Interview/issues/14)
+- [Rxjs code snippets common usage scenarios](https://github.com/reboottime/Angular-Playbook/issues/36)
 - [Routing in Angular Applications](https://github.com/reboottime/Angular-Playbook/issues/33)
 - [State Management in Angular Applications](https://github.com/reboottime/Angular-Playbook/issues/35)
