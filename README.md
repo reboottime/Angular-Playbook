@@ -16,3 +16,5 @@ I was hired, so I've organized this repository to chronicle my Angular journey f
 - [Rxjs code snippets common usage scenarios](https://github.com/reboottime/Angular-Playbook/issues/36)
 - [Routing in Angular Applications](https://github.com/reboottime/Angular-Playbook/issues/33)
 - [State Management in Angular Applications](https://github.com/reboottime/Angular-Playbook/issues/35)
+
+- [Code Style Guide in Angular Applications](https://github.com/reboottime/Angular-Playbook/issues/40)
