@@ -1,4 +1,4 @@
-# Essentials of Creating an Angular SPA Application
+# Essentials of Creating an Angular Application
 
 I was hired, so I've organized this repository to chronicle my Angular journey for future reference.
 
